@@ -9,7 +9,8 @@ A _paragraph_ here. A code chunk below (remember the three backticks):
 
 ```{r}
 1+1
-.4-.7+.3 # what? it is not zero!
+(small.number <- .4-.7+.3) # what? it is not zero!
+identical(small.number, 0)
 ```
 
 ## graphics
